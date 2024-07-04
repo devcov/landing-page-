@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* ---------------------header-------------------------------------------------- */
+
+.navbar
+{
+    background-image: linear-gradient(to right,blue,aqua);
+}
+
+
+
+.navbar span 
+{
+    font-size: large;
+    color: white;
+}
+.navbar span:hover{
+    color: red;
+    font-size: 20px;
+}
+
+.nav-link
+{
+    font-size: 16px;
+    margin: 2px;
+    color: white !important;
+    
+}
+.nav-link:hover{
+    color: red !important;
+    
+   
+ 
+}
+
+.navbar-nav
+{
+    text-align: right;
+}
+
+.menu-bar .navbar-toggler
+{
+    padding-right: 0;
+    outline: none;
+    border: none;
+    
+}
+
+.banner
+{
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/imgone.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.banner h1
+{
+    padding-top: 170px;
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    text-shadow: 0 0 30px black;
+}
+
+
+/* ----------------- description---------------------------*/
+
+
+.textdescrition
+
+{
+    padding: 30px 0;
+    margin: -50px 6% 50px;
+
+    background-image: linear-gradient(to right ,blue , aqua);
+    color: white;
+    border-radius: 30px;
+
+}
+
+.textdescrition span{
+    color: blueviolet;
+}
+.textdescrition small
+{
+    color: red;
+    font-weight: bold;
+}
+
+
+
+/* --------------------------- traveux -----------------------------*/
+
+.traveux .marque
+{
+    width: 950px;
+    margin-top: 50px;
+    color: blue;
+    background-color: aquamarine;
+
+}
+
+
+.stats-box
+{
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 40px 0 rgb(110, 130, 208, .18);
+
+}
+
+
+.stats-box .fa{
+    font-size: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+/*----------------- services -------------------------------------*/
+
+#services h1
+{
+    margin: 30px;
+    color: blue;
+}
+
+#services h1::before 
+{
+    content: '';
+    background-image: linear-gradient(to right ,blue , aqua);
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    z-index: -10;
+    margin-top: -15px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 90px;
+
+}
+
+
+
+#services  img{
+    margin-top: 70px;
+    width: 200px;
+    height: 300px;
+}
+
+
+
+
+
+
+/* --------------------------footer  -------------------------*/
+footer
+{
+    margin-top: 50px;
+}
+
+.copyrght
+{
+    background-color: rgba(0, 0, 0, 0.87) !important;
+    color: beige;
+}
+.copyrght a
+{
+   color: brown !important;
+}
+
